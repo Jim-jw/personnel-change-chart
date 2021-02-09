@@ -1,0 +1,16 @@
+{
+  "name": "g-chart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "go": "vue serve ./src/index.vue -o",
+    "start": "node ./clearData.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "echarts": "^4.9.0"
+  }
+}
